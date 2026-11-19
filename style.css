@@ -8,7 +8,9 @@ html {
 }
 
 #heading {
-  display: inline-block;
+  display: block;
+  border-top: 3px solid #0284c7;
+  padding-top: 16px;
 }
 
 /* メインの白いカード部分 */
@@ -48,9 +50,6 @@ img {
   transition: transform 0.3s ease;
 }
 
-img:hover {
-  transform: scale(1.02);
-}
 
 /* 中見出し（ドリ研について） */
 h2 {
