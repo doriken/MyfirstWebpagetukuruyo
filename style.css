@@ -7,6 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#heading {
+  display: inline-block;
+}
+
 /* メインの白いカード部分 */
 body {
   max-width: 800px;
